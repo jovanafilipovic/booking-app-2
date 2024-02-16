@@ -1,0 +1,79 @@
+
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    width: 400px;
+    border-color: tomato;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* .login-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} */
+
+.line-break {
+    border-color: tomato;
+    opacity: 50%;
+}
+
+.login-input {
+    border: 1px solid tomato;
+    padding: 10px;
+    border-radius: 4px;
+  
+    &::placeholder {
+      font-style: italic;
+      opacity: 50%;
+    }
+  }
+
+.login-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button {
+    width: 100%;
+    background-color: tomato;
+    border: 1px solid tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: white;
+    color: tomato;
+    transform: scale(1.05);
+  }
+
+.create-acc-button {
+    text-decoration: underline;
+    color: blue;
+    margin-top: 1rem;
+    font-size: 14px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.create-acc-button:hover {
+    transform: scale(1.05);
+}
+
+.text-tomato {
+    color: tomato;
+  }
